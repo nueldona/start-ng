@@ -96,3 +96,17 @@ header {
     }
   }
 }
+
+@include mediaXm {
+  
+  header {
+  
+    .header__text {
+      top: 20% !important;
+      left: 50% !important;
+      transform: translate(-50%, 20%) !important;
+    }  
+  
+     
+  }
+}

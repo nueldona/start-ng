@@ -215,4 +215,12 @@ header .header__text h1 {
     width: 90%;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  header .header__text {
+    top: 20% !important;
+    left: 50% !important;
+    transform: translate(-50%, 20%) !important;
+  }
+}
 /*# sourceMappingURL=index.css.map */
