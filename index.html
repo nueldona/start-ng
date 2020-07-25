@@ -24,80 +24,43 @@
 
     <!-- Header -->
     <header class="">
-      <nav class="navbar">
-        <a class="logo" href="#">
-          <img src="./images/Header/header-img.png" alt="">
-        </a>
-        <div class="nav-content">
-          <ul class="nav-links">
-            <li>
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Curriculum</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Previous Techies</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Mentors</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-btn">
-          <button>Join StartNG</button>
-        </div>
-    
-        <!-- Nav Toggler -->
-        <div class="nav-toggler" onclick="openNav()">
-          <div class="line line-1"></div>
-          <div class="line line-2"></div>
-          <div class="line line-3"></div>
-        </div>
-      </nav>
-    
-      <!-- Backdrop -->
-      <div class="backdrop" onclick="closeNav()"></div>
-    
-      <!-- Mobile -->
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">
-          <img src="/images/faqs/home.png" alt="">
-          <span>Home</span>
-        </a>
-        <a href="#">
-          <img src="/images/faqs/curriculum.png" alt="">
-          <span>Curriculum</span>
-        </a>
-        <a href="#">
-          <img src="/images/faqs/previous-techies.png" alt="">
-          <span>Previous Techies</span>
-        </a>
-        <a href="#">
-          <img src="/images/faqs/mentors.png" alt="">
-          <span>Mentors</span>
-        </a>
-        <a href="#">
-          <img src="/images/faqs/contact.png" alt="">
-          <span>Contact</span>
-        </a>
-        <div class="sidenav-btn">
-          <button>Join StartNG</button>
-        </div>
-      </div>
-    
       <!-- desktop nav and mobile nav  -->      
       <div class="container">
-        <div class="header__text">  
-          <p>Frequently Asked Questions</p>
-          <h1>Here are some of the most frequently asked questions on Start.NG </h1>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light navigation py-5 px-1">
+          <a class="navbar-brand" href="#"><img src="/images/faqs/header-img.png" alt="logo"></a>
+  
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"> <img src="/images/Header/Vector.svg" alt=""></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link ml-lg-3" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-lg-3" href="#">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-lg-3" href="#">Previous Techies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-lg-3" href="#">Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-lg-3" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mt-3 mt-lg-0 h-btn px-4 text-white" href="#">Join StartNG</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
+
+    <section class="header__text">  
+      <p>Frequently Asked Questions</p>
+      <h1>Here are some of the most frequently asked questions on Start.NG </h1>
+    </section>
 
     <!-- main content -->
     <main>
@@ -212,44 +175,110 @@
 
     <!-- Footer -->
     <footer>
-      <div class="footer">
-        <div class="container">
-          <div class="logo text-center">
-            <img src="./images/Header/header-img.png" alt="">
-          </div>
-          <div class="row ">
-            <div class="foot-logo col">
-              <img src="./images/Header/header-img.png" alt="">
-            </div>
-            <div class="quick-links d-flex flex-column col">
-              <h4>Quick Links</h4>
-              <a href="">Home</a>
-              <a href="">Curriculum</a>
-              <a href="">Previous Techies</a>
-              <a href="">FAQ</a>
-              <a href="">Request Certificates</a>
-              <a href="">Terms and Conditions</a>
-            </div>
-            <div class="contact-us col">
-              <h5>Contact Us</h5>
-              <a href="">hello@start.ng</a>
-            </div>
-            <div class="office d-flex flex-column col">
-              <h5>Office Address</h5>
-              <a href="">92 Wolverine Avenue,</a>
-              <a href="">Ikeja,</a>
-              <a href="">Lagos State, Nigeria.</a>
-            </div>
-            <div class="follow col">
-              <h5>Follow Us</h5>
-              <img src="/images/faqs/facebook.svg" alt="">
-              <img src="/images/faqs/twitter.svg" alt="">
+      <div class="container disp-1">
+          <div class="row">
+              <div class="col-6">
+                  <h5 class="pb-2">Quick Links</h5>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Home</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Curriculum</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Previous Techies</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">FAQ</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Request Certificates</a>
+                  </div>
+                  <div>
+                    <a class="text-secondary" href="">Terms and Conditions</a>
+                  </div>
+                  <div class="pt-5">
+                    <img src="/images/faqs/header-img.png" alt="footer-logo">
+                  </div>
+              </div>
+              <div class="col-6">
+                <h5 class="pb-2">Contact Us</h5>
+                <p class="text-secondary">Hello@start.ng</p>
+                <h5 class="pb-2 pt-3">Office Address</h5>
+                <p class="text-secondary">92 Wolverine Avenue, Ikeja,</p>
+                <p class="text-secondary">Lagos State, Nigeria.</p>
+                <h5 class="pt-3">Follow Us</h5>
+                <div>
+                    <a href="#">
+                        <img src="/images/faqs/facebook.svg" alt="">
+                    </a>
+                    <a href="#" class="ml-5">
+                        <img src="/images/faqs/twitter.svg" alt="">
+                    </a>
+                </div>
             </div>
           </div>
           <hr>
-          <p class="text-center"> © 2020 StartNG</p>
-        
-        </div>
+          <div class="row">
+              <div class="col-12 text-center">
+                  <p> &copy; 2020 StartNG</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="container disp-2">
+          <div class="row">
+            <div class="col-2 my-3">
+                <img src="/images/Header/header-img.png" alt="">
+            </div>
+            <div class="col-2 m-3">
+                <h5 class="pb-2">Quick Links</h5>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Home</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Curriculum</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Previous Techies</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">FAQ</a>
+                  </div>
+                  <div class="pb-2">
+                    <a class="text-secondary" href="">Request Certificates</a>
+                  </div>
+                  <div>
+                    <a class="text-secondary" href="">Terms and Conditions</a>
+                  </div>
+            </div>
+            <div class="col-2 m-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <p class="text-secondary">Hello@start.ng</p>
+            </div>
+            <div class="col-2 m-3">
+                <h5 class="pb-2">Office Address</h5>
+                <p class="text-secondary">92 Wolverine Avenue, Ikeja,</p>
+                <p class="text-secondary">Lagos State, Nigeria.</p>
+            </div>
+            <div class="col-2 m-3">
+                <h5>Follow Us</h5>
+                <div>
+                    <a href="#">
+                      <img src="/images/faqs/facebook.svg" alt="">
+                    </a>
+                    <a href="#" class="ml-5">
+                      <img src="/images/faqs/twitter.svg" alt="">
+                    </a>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-12 text-center">
+                  <p> &copy; 2020 StartNG</p>
+              </div>
+          </div>
       </div>
     </footer>
   </article> 
