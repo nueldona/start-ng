@@ -24,7 +24,72 @@
 
     <!-- Header -->
     <header class="">
-
+      <nav class="navbar">
+        <a class="logo" href="#">
+          <img src="./images/Header/header-img.png" alt="">
+        </a>
+        <div class="nav-content">
+          <ul class="nav-links">
+            <li>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Curriculum</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Previous Techies</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Mentors</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <button>Join StartNG</button>
+        </div>
+    
+        <!-- Nav Toggler -->
+        <div class="nav-toggler" onclick="openNav()">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </nav>
+    
+      <!-- Backdrop -->
+      <div class="backdrop" onclick="closeNav()"></div>
+    
+      <!-- Mobile -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">
+          <img src="/images/faqs/home.png" alt="">
+          <span>Home</span>
+        </a>
+        <a href="#">
+          <img src="/images/faqs/curriculum.png" alt="">
+          <span>Curriculum</span>
+        </a>
+        <a href="#">
+          <img src="/images/faqs/previous-techies.png" alt="">
+          <span>Previous Techies</span>
+        </a>
+        <a href="#">
+          <img src="/images/faqs/mentors.png" alt="">
+          <span>Mentors</span>
+        </a>
+        <a href="#">
+          <img src="/images/faqs/contact.png" alt="">
+          <span>Contact</span>
+        </a>
+        <div class="sidenav-btn">
+          <button>Join StartNG</button>
+        </div>
+      </div>
+    
       <!-- desktop nav and mobile nav  -->      
       <div class="container">
         <div class="header__text">  
@@ -43,7 +108,7 @@
           <section class="accordion__item" id="question">
             <div class="accordion__item__header">
               <a href="#question">
-                <img src="/images/faqs/Vector.svg" alt="arrow left" class="arrow__left">
+                <img src="/images/faqs/arrowe (2).svg" alt="arrow left" class="arrow__left">
                 <img src="/images/faqs/Vector (1).svg" alt="arrow down" class="arrow__down">
                 <span>
                   After filling the form at 3/3, I don't get a confirmation. It just starts afresh at 1/3. Is that normal?
@@ -61,7 +126,7 @@
           <section class="accordion__item" id="question2">
             <div class="accordion__item__header">
               <a href="#question2">
-                <img src="/images/faqs/Vector.svg" alt="arrow left" class="arrow__left">
+                <img src="/images/faqs/arrowe (2).svg" alt="arrow left" class="arrow__left">
                 <img src="/images/faqs/Vector (1).svg" alt="arrow down" class="arrow__down">
                 <span>
                   Can I hire from Start.ng graduates?
@@ -79,7 +144,7 @@
           <section class="accordion__item" id="question3">
             <div class="accordion__item__header">
               <a href="#question3">
-                <img src="/images/faqs/Vector.svg" alt="arrow left" class="arrow__left">
+                <img src="/images/faqs/arrowe (2).svg" alt="arrow left" class="arrow__left">
                 <img src="/images/faqs/Vector (1).svg" alt="arrow down" class="arrow__down">
                 <span>
                   I filled the form but didn't receive any confirmation email, is that normal or should I apply again?
@@ -97,7 +162,7 @@
           <section class="accordion__item" id="question4">
             <div class="accordion__item__header">
               <a href="#question4">
-                <img src="/images/faqs/Vector.svg" alt="arrow left" class="arrow__left">
+                <img src="/images/faqs/arrowe (2).svg" alt="arrow left" class="arrow__left">
                 <img src="/images/faqs/Vector (1).svg" alt="arrow down" class="arrow__down">
                 <span>
                   I've entered correct age, phone number and zip code but it keeps popping up a message that there's a mistake with one of those. Hope the postal code is same as the zip code?
@@ -115,7 +180,7 @@
           <section class="accordion__item" id="question5">
             <div class="accordion__item__header">
               <a href="#question5">
-                <img src="/images/faqs/Vector.svg" alt="arrow left" class="arrow__left">
+                <img src="/images/faqs/arrowe (2).svg" alt="arrow left" class="arrow__left">
                 <img src="/images/faqs/Vector (1).svg" alt="arrow down" class="arrow__down">
                 <span>
                   How much time needs to be spent for training? Is it 8hrs a day for 6 weeks?
@@ -135,7 +200,58 @@
         </div>
       </section>
         
+      <!-- section 3 -->
+      <div class="section-3 container">
+        <div class="content container">
+          <h2 class="mb-5">Break into the tech industry like a pro</h2>
+          <button>Enroll Today</button>
+        </div>
+      </div>
+
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="logo text-center">
+            <img src="./images/Header/header-img.png" alt="">
+          </div>
+          <div class="row ">
+            <div class="foot-logo col">
+              <img src="./images/Header/header-img.png" alt="">
+            </div>
+            <div class="quick-links d-flex flex-column col">
+              <h4>Quick Links</h4>
+              <a href="">Home</a>
+              <a href="">Curriculum</a>
+              <a href="">Previous Techies</a>
+              <a href="">FAQ</a>
+              <a href="">Request Certificates</a>
+              <a href="">Terms and Conditions</a>
+            </div>
+            <div class="contact-us col">
+              <h5>Contact Us</h5>
+              <a href="">hello@start.ng</a>
+            </div>
+            <div class="office d-flex flex-column col">
+              <h5>Office Address</h5>
+              <a href="">92 Wolverine Avenue,</a>
+              <a href="">Ikeja,</a>
+              <a href="">Lagos State, Nigeria.</a>
+            </div>
+            <div class="follow col">
+              <h5>Follow Us</h5>
+              <img src="/images/faqs/facebook.svg" alt="">
+              <img src="/images/faqs/twitter.svg" alt="">
+            </div>
+          </div>
+          <hr>
+          <p class="text-center"> © 2020 StartNG</p>
+        
+        </div>
+      </div>
+    </footer>
   </article> 
 
   
